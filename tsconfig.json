@@ -1,0 +1,13 @@
+{
+    "compilerOptions": {
+        "target": "ES6",                        // نسخه جاوااسکریپت خروجی
+        "module": "commonjs",                   // سیستم ماژول
+        "outDir": "./dist",                     // مسیر فایل‌های خروجی
+        "rootDir": "./src",                     // مسیر فایل‌های ورودی
+        "strict": true,                         // فعال کردن بررسی‌های دقیق
+        "esModuleInterop": true,                // سازگاری با ES Modules
+        "skipLibCheck": true                    // صرف‌نظر از بررسی فایل‌های تایپ کتابخانه‌ها
+    },
+    "include": ["src"],                       // فایل‌های ورودی
+    "exclude": ["node_modules"]               // فایل‌های نادیده گرفته شده
+}
